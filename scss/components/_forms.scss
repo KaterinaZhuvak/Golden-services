@@ -1,0 +1,78 @@
+.forms{
+    background-color: #222;
+    padding: 92px 0 115px 0;
+    &__title{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__form{
+      
+        input{
+            background: #FFF;
+            border: 1px solid #CCC;
+            width: 455px;
+            height: 50px;
+            padding: 12px 20px 21px 20px;
+            color: #BBB;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.35px;
+            text-transform: uppercase;
+        
+            margin-bottom: 28px;
+        }
+        textarea{
+            color: #bbb;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.35px;
+            text-transform: uppercase;
+            padding: 14px 20px 10px 22px ;
+            width: 458px;
+            height: 212px;
+        }
+       
+    }
+         &__btn {
+             color: #FFF;
+             text-align: center;
+             font-family: Montserrat;
+             font-size: 18px;
+             font-style: normal;
+             font-weight: 700;
+             line-height: normal;
+             text-transform: uppercase;
+             background-color: #FED136;
+             padding: 18px 33px 18px 33px;
+             border: none;
+             display: block;
+             margin: 27px auto 0;
+         }
+                  &__inputs {
+                      margin-top: 25px;
+                      display: flex;
+                      align-items: center;
+                      flex-direction: column;
+                      resize: none;
+                  }
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row ;
+    }
+}
+
